@@ -18,7 +18,7 @@ java FunctionSolveSystem
 |1.0.0|2020/1/28|
 
 ## Using manaul
-See [Using Manaul](doc/UsingManual.md)
+Click [there](doc/UsingManual.md), and you can see the using manual of this application.
 
 > Note:
 > This application using the CLASSPATH environment variable is:
