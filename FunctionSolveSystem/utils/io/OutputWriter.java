@@ -2,6 +2,9 @@ package utils.io;
 
 import java.io.*;
 
+import utils.bugreport.BugReportHelper;
+import utils.config.ApplicationConfig;
+
 public final class OutputWriter {
 	protected BufferedWriter writer;
 	
@@ -33,7 +36,11 @@ public final class OutputWriter {
 		try {
 			close();
 		} catch(IOException e) {
-			e.printStackTrace();
+			if(ApplicationConfig.enableChineseTranslatorService == true) {
+				BugReportHelper.report("IO工具出现了异常。", e);
+			} else {
+				BugReportHelper.report("The IO tool has a exception.", e);
+			}
 		}	
 	}
 	

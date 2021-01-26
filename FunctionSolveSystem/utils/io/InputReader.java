@@ -4,6 +4,9 @@ import java.io.*;
 import java.math.BigInteger;
 import java.math.BigDecimal;
 
+import utils.bugreport.BugReportHelper;
+import utils.config.ApplicationConfig;
+
 public class InputReader {
 	protected BufferedReader reader;
 
@@ -31,7 +34,11 @@ public class InputReader {
 		try {
 			close();
 		} catch(IOException e) {
-			e.printStackTrace();
+			if(ApplicationConfig.enableChineseTranslatorService == true) {
+				BugReportHelper.report("IO工具出现了异常。", e);
+			} else {
+				BugReportHelper.report("The IO tool has a exception.", e);
+			}
 		}
 	}
 	
