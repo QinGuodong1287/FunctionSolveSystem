@@ -12,6 +12,11 @@ cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/
 java FunctionSolveSystem
 ```
 
+## Version
+|Version|Publish Time|
+|-------|------------|
+|1.0.0|2020/1/28|
+
 > Note:
 > This application using the CLASSPATH environment variable is:
 > ```
