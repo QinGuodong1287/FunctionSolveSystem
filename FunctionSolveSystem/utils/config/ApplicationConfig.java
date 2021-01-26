@@ -5,6 +5,6 @@ public class ApplicationConfig {
 	}
 	
 	// These are the application's config.
-	// Enable or disable the chinese translator service.
+	// Enable or disable the chinese translator service(true is enable and false is disable).
 	public static boolean enableChineseTranslatorService = false;
 }
