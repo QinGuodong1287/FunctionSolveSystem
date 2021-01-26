@@ -6,6 +6,6 @@ It can solve the X-axis of the point(s) on the graph picture of your function at
 This application can't execute with GUI. It must execute with terminal, and you must install the JDK.\
 You must clone and extract the application in your device, and use it in terminal with below commands:
 ```
-cd FunctionSolveSystem/
+cd FunctionSolveSystem-1.0/FunctionSolveSystem/
 java FunctionSolveSystem
 ```
