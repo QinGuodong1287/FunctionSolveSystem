@@ -11,3 +11,10 @@ You must clone and extract the application in your device, and use it in termina
 cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/
 java FunctionSolveSystem
 ```
+
+> Note:
+> This application using the CLASSPATH environment variable is:
+> ```
+> CLASSPATH=".:..:$CLASSPATH" // For Linux/Mac
+> CLASSPATH=".;..;%CLASSPATH%" // For Windows
+> ```
