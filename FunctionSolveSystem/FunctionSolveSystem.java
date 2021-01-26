@@ -13,6 +13,7 @@ import utils.translate.Translator;
 import utils.translate.exceptions.InvaildLanguageException;
 import utils.spliter.FunctionSpliter;
 import utils.spliter.SplitResult;
+import utils.config.ApplicationConfig;
 
 public final class FunctionSolveSystem {
 	public static void main(String[] args) {
@@ -21,8 +22,11 @@ public final class FunctionSolveSystem {
 		} catch(Exception exc) { // Catch an excpetion.
 			ExceptionLogger.logException(exc); // Print to the log file.
 			// Tell the user there was an error.
-			// System.err.println("There was an error, program is exiting...");
-			System.err.println("这里有一个错误，程序正在退出……");
+			if(ApplicationConfig.enableChineseTranslatorService == false) {
+				System.err.println("There was an error, program is exiting...");
+			} else {
+				System.err.println("这里有一个错误，程序正在退出……");
+			}
 		}
 	}
 	
@@ -53,16 +57,26 @@ public final class FunctionSolveSystem {
 			errWriter = new OutputWriter(System.err);
 		} catch(IOException e) { // If throws a IOException
 			// Tell user there was an exception, and exit this program.
-			// System.err.println("Sorry, the IO tools are error. Please restart this program.");
-			System.err.println("抱歉，IO工具错误。请重启改程序。");
+			if(ApplicationConfig.enableChineseTranslatorService == false) {
+				System.err.println("Sorry, the IO tools are error. Please restart this program.");
+			} else {
+				System.err.println("抱歉，IO工具错误。请重启改程序。");
+			}
 			return;
 		}
 		try {
-			translator = new Translator("chinese");
+			if(ApplicationConfig.enableChineseTranslatorService == true) {
+				translator = new Translator("chinese");
+			} else {
+				translator = new Translator("english");
+			}
 		} catch(InvaildLanguageException e) { // If throws a InvaildValueException
 			// Tell user there was an exception, and exit this program.
-			// errWriter.writeln("Sorry, the translator is error. Please restart this program.");
-			errWriter.writeln("抱歉，翻译器错误。请重启该程序。");
+			if(ApplicationConfig.enableChineseTranslatorService == false) {
+				errWriter.writeln("Sorry, the translator is error. Please restart this program.");
+			} else {
+				errWriter.writeln("抱歉，翻译器错误。请重启该程序。");
+			}
 			return;
 		}
 		try {
