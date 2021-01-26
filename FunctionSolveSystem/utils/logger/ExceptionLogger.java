@@ -2,6 +2,9 @@ package utils.logger;
 
 import java.io.*;
 
+import utils.bugreport.BugReportHelper;
+import utils.config.ApplicationConfig;
+
 public final class ExceptionLogger {
 	protected static String logFilepath = "log/error.log";
 	
@@ -36,7 +39,11 @@ public final class ExceptionLogger {
 			logger.write(trace.toString() + "\n");
 			logger.close();
 		} catch(Exception e) {
-			e.printStackTrace();
+			if(ApplicationConfig.enableChineseTranslatorService == false) {
+				BugReportHelper.report("The exception can't log to log file.", exc, e);
+			} else {
+				BugReportHelper.report("异常无法导出到日志文件中。", exc, e);
+			}
 		}
 	}
 }
