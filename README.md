@@ -15,7 +15,7 @@ java FunctionSolveSystem
 ## Version
 |Version|Publish Time|
 |-------|------------|
-|1.0.0|2020/1/28|
+|1.0.0(current)|2020/1/28|
 
 ## Using manaul
 Click [there](doc/UsingManual.md), and you can see the using manual of this application.
