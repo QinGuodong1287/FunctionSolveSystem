@@ -1,5 +1,7 @@
 # Function Solve System
-> Features: Solve constant function, linear function, and quadratic function.\
+
+> Features: Solve constant function, linear function, and quadratic function.
+
 Welcome to Function Solve System!\
 This application can solve a constant function, a linear function, and a quadratic function.\
 It can solve the X-axis of the point(s) on the graph picture of your function at given Y-axis.\
