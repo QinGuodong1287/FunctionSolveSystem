@@ -26,3 +26,4 @@ Click [there](doc/UsingManual.md), and you can see the using manual of this appl
 > CLASSPATH=".:..:$CLASSPATH" // For Linux/Mac
 > CLASSPATH=".;..;%CLASSPATH%" // For Windows
 > ```
+> In the CLASSPATH environment variable, the "$CLASSPATH" or "%CLASSPATH%" is your setting environment variable CLASSPATH.
