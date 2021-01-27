@@ -1,3 +1,4 @@
+[< Go back to Using manual content](../Using-manual.md)
 # Using manual
 ## 2.More method
 ### (1)Enable or disable chinese translator service
