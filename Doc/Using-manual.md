@@ -1,3 +1,4 @@
+[< Go back to main page](../README.md)
 # Using manual
 Now, let me tell you how do use it.\
 Click below manual, and read the using manual of this application.
