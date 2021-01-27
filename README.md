@@ -1,7 +1,7 @@
 Change language to \[[CN 汉语](README_CN.md)\]
 # Function Solve System
 
-> Features: Solve constant function, linear function, and quadratic function.
+> Features: Can solve constant function, linear function, and quadratic function.
 
 Welcome to Function Solve System!\
 This application can solve a constant function, a linear function, and a quadratic function.\
