@@ -1,4 +1,4 @@
-[<Go back to using manual content](../Using-manual.md)
+[< Go back to using manual content](../Using-manual.md)
 # Using manual
 ## 1.Method of application
 First, start this application with below command:
