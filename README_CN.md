@@ -19,7 +19,7 @@ java FunctionSolveSystem
 |1.0.0(当前)|2020/1/28|
 
 ## 使用手册
-点击[这里](Doc/UsingManual.md)，你可以看到有关该应用的手册.
+点击[这里](Doc/Using-manual.md)，你可以看到有关该应用的手册.
 
 > 注：
 > 该应用使用的环境变量CLASSPATH是:
