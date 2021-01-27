@@ -1,3 +1,4 @@
+切换语言为[EN 英语](README.md)
 # 函数解析系统
 
 > 特点：解析常函数、一次函数和二次函数。
@@ -12,18 +13,18 @@ cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/
 java FunctionSolveSystem
 ```
 
-## Version
-|Version|Publish Time|
+## 版本
+|版本|发布时间|
 |-------|------------|
-|1.0.0(current)|2020/1/28|
+|1.0.0(当前)|2020/1/28|
 
-## Using manaul
-Click [there](Doc/UsingManual.md), and you can see the using manual of this application.
+## 使用手册
+点击[这里](Doc/UsingManual.md)，你可以看到有关该应用的手册.
 
-> Note:
-> This application using the CLASSPATH environment variable is:
+> 注：
+> 该应用使用的环境变量CLASSPATH是:
 > ```
-> CLASSPATH=".:..:$CLASSPATH" // For Linux/Mac
-> CLASSPATH=".;..;%CLASSPATH%" // For Windows
+> CLASSPATH=".:..:$CLASSPATH" // 对于Linux/Mac
+> CLASSPATH=".;..;%CLASSPATH%" // 对于Windows
 > ```
-> In the CLASSPATH environment variable, the "$CLASSPATH" or "%CLASSPATH%" is your setting environment variable CLASSPATH.
+> 在CLASSPATH环境变量中，“$CLASSPATH”或“%CLASSPATH%”是你设置好的环境变量CLASSPATH。
