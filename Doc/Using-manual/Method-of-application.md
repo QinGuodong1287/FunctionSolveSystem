@@ -1,4 +1,5 @@
 [< Go back to using manual content](../Using-manual.md)
+[Go to 2.More methods >](More-methods.md)
 # Using manual
 ## 1.Method of application
 First, start this application with below command:
