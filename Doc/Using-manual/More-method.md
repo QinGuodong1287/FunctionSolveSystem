@@ -1,4 +1,5 @@
-[< Go back to using manual content](../Using-manual.md)
+[< Go back to using manual content](../Using-manual.md)\
+[< Go to 1.Method of application](Method-of-application.md)
 # Using manual
 ## 2.More method
 ### (1)Enable or disable chinese translator service
