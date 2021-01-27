@@ -1,4 +1,4 @@
-Change language to [\[CN 汉语\]](README_CN.md)
+Change language to \[[CN 汉语](README_CN.md)\]
 # Function Solve System
 
 > Features: Solve constant function, linear function, and quadratic function.
