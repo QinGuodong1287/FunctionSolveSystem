@@ -8,12 +8,12 @@
 它可以解析该函数的图像位于给定Y坐标的点的X坐标。\
 该应用不能在GUI运行。它必须在终端运行，并且你必须安装JDK。\
 你必须克隆且解压该应用的压缩文件到你的设备中，并使用以下命令使用它：\
-Linux/Mac OS:
+Linux/Mac OS：
 ```
 cd FunctionSolveSystem-1.0.0/
 bash Bin/FunctionSolveSystemLuncher.sh
 ```
-Windows:
+Windows：
 ```
 cd FunctionSolveSystem-1.0.0/
 Bin/FunctionSolveSystemLuncher.bat
