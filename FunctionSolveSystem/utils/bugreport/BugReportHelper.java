@@ -16,7 +16,7 @@ public class BugReportHelper {
 			ways[1] = "到Github的Issues页“https://github.com/QinGuodong1287/FunctionSolveSystem/issues”，点击“New Issue”，并提交一条包含以下异常信息的Issue。";
 		}
 	}
-	protected static String authur = "QinGuodong1287";
+	protected static String author = "QinGuodong1287";
 	
 	public static void report(String message, Exception... exceptions) {
 		if(ApplicationConfig.enableChineseTranslatorService == false) {
@@ -26,11 +26,11 @@ public class BugReportHelper {
 		}
 		System.out.print(message);
 		if(ApplicationConfig.enableChineseTranslatorService == false) {
-			System.out.print(" Please report this bug to the authur ");
+			System.out.print(" Please report this bug to the author ");
 		} else {
 			System.out.print("请报告这个bug给作者");
 		}
-		System.out.print(authur);
+		System.out.print(author);
 		if(ApplicationConfig.enableChineseTranslatorService == false) {
 			System.out.println(". You can choose a way to report:");
 		} else {
