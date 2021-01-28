@@ -11,7 +11,7 @@
 #### a.Enable or disable chinese translator service
 If you are chinese, you can enable the chinese translator service.\
 If you enabled the chinese translator service, the application will print the chinese string.\
-If you want enable the chinese translator service, you must execute below command and edit file FunctionSolveSystem-1.0.0/FunctionSolveSystem/utils/config/ApplicationConfig.java:
+If you want enable the chinese translator service, you must execute below command and edit file FunctionSolveSystem-1.0.0/FunctionSolveSystem/utils/config/ApplicationConfig.java:\
 For Linux/Mac OS:
 ```
 cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/tools/
@@ -32,7 +32,7 @@ public static boolean enableChineseTranslatorService = true;
 ```
 Then you must wait a moment, util the configer prints "The config of this application is suceussfully.".
 The application's chinese translator service was enabled, and it prints the chinese string when it starts.
-Otherwise, if you want disable the chinese translator service, you must execute below command and edit file FunctionSolveSystem-1.0.0/FunctionSolveSystem/utils/config/ApplicationConfig.java:
+Otherwise, if you want disable the chinese translator service, you must execute below command and edit file FunctionSolveSystem-1.0.0/FunctionSolveSystem/utils/config/ApplicationConfig.java:\
 For Linux/Mac OS:
 ```
 cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/tools/
