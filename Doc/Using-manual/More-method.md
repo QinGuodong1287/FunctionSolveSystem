@@ -5,7 +5,7 @@
 
 **Content:**\
 [(1)Config the application](#1config-the-application)\
-[    a.Enable or disable chinese translator service](#aenable-or-disable-chinese-translator-service)
+[a.Enable or disable chinese translator service](#aenable-or-disable-chinese-translator-service)
 
 ### (1)Config the application
 #### a.Enable or disable chinese translator service
