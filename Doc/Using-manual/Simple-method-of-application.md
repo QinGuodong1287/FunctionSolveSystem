@@ -2,6 +2,11 @@
 [Go to 2.More method >](More-method.md)
 # Using manual
 ## 1.Simple method of application
+
+**Content:**\
+[Method of the application](#method-of-the-application)
+
+### Method of the application
 First, start this application with below command:
 ```
 java FunctionSolveSystem
