@@ -30,8 +30,8 @@ to:
 ```
 public static boolean enableChineseTranslatorService = true;
 ```
-Then you must wait a moment, util the configer prints "The config of this application is suceussfully.".
-The application's chinese translator service was enabled, and it prints the chinese string when it starts.
+Then you must wait a moment, util the configer prints "The config of this application is suceussfully.".\
+The application's chinese translator service was enabled, and it prints the chinese string when it starts.\
 Otherwise, if you want disable the chinese translator service, you must execute below command and edit file FunctionSolveSystem-1.0.0/FunctionSolveSystem/utils/config/ApplicationConfig.java:\
 For Linux/Mac OS:
 ```
@@ -47,5 +47,5 @@ Change line 9 to:
 ```
 public static boolean enableChineseTranslatorService = false;
 ```
-Then wait util the configer prints "The config of this application is suceussfully.".
+Then wait util the configer prints "The config of this application is suceussfully.".\
 The application will disable chinese translator service, and don't print the chinese string.
