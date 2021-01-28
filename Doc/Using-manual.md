@@ -7,4 +7,4 @@ Click below manual, and read the using manual of this application.
 [Method of the application](Using-manual/Simple-method-of-application.md#method-of-the-application)\
 [**2.More method**](Using-manual/More-method.md)\
 [(1)Config the application](Using-manual/More-method.md#1config-the-application)\
-[a.Enable or disable the chinese translator service](Using-manual/More-method.md#aenable-or-disable-the-chinese-translator-service)
+[a.Enable or disable chinese translator service](Using-manual/More-method.md#aenable-or-disable-chinese-translator-service)
