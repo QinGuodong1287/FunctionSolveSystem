@@ -1,5 +1,5 @@
 [< Go back to using manual content](../Using-manual.md)\
-[< Go to 1.Method of application](Method-of-application.md)
+[< Go to 1.Simple method of application](Simple-method-of-application.md)
 # Using manual
 ## 2.More method
 
