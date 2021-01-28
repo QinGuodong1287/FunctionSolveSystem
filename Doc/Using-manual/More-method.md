@@ -14,13 +14,13 @@ If you enabled the chinese translator service, the application will print the ch
 If you want enable the chinese translator service, you must execute below command and edit file FunctionSolveSystem-1.0.0/FunctionSolveSystem/utils/config/ApplicationConfig.java:\
 For Linux/Mac OS:
 ```
-cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/tools/
-bash ApplicationConfiger.sh
+cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/
+bash Bin/ApplicationConfiger.sh
 ```
 For Windows:
 ```
-cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/tools/
-./ApplicationConfiger.bat
+cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/
+Bin/ApplicationConfiger.bat
 ```
 Change line 9:
 ```
@@ -35,13 +35,13 @@ The application's chinese translator service was enabled, and it prints the chin
 Otherwise, if you want disable the chinese translator service, you must execute below command and edit file FunctionSolveSystem-1.0.0/FunctionSolveSystem/utils/config/ApplicationConfig.java:\
 For Linux/Mac OS:
 ```
-cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/tools/
-bash ApplicationConfiger.sh
+cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/
+bash Bin/ApplicationConfiger.sh
 ```
 For Windows:
 ```
-cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/tools/
-./ApplicationConfiger.bat
+cd FunctionSolveSystem-1.0.0/FunctionSolveSystem/
+Bin/ApplicationConfiger.bat
 ```
 Change line 9 to:
 ```
