@@ -1,6 +1,6 @@
 Change language to \[[CN 汉语](README_CN.md)\]
 # Function Solve System
-![Function Solve System Logo](/QinGuodong1287/FunctionSolveSystem/blob/main/Resources/images/logo.jpg)
+![Function Solve System Logo](/Resources/images/logo.jpg)
 
 > Features: Can solve constant function, linear function, and quadratic function.
 
