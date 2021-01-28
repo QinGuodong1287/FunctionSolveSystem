@@ -6,13 +6,14 @@ Change language to \[[CN 汉语](README_CN.md)\]
 Welcome to Function Solve System!\
 This application can solve a constant function, a linear function, and a quadratic function.\
 It can solve the X-axis of the point(s) on the graph picture of your function at given Y-axis.\
-This application can't execute with GUI. It must execute with terminal, and you must install the JDK(the Oracle JDK or OpenJDK).\
+This application can't execute with GUI. It must execute with terminal, and you must install the JDK(the Oracle JDK or OpenJDK).
 
 > Note: This application supported JDK's minimum version is 11.0.9.1.
 > |JDK Version|Supported|
 > |-----------|---------|
 > |>= 11.0.9.1|Supported|
 > |< 11.0.9|Not supported|
+> 
 > If your JDK's version is lower 11.0.9, the application may not run currectly.\
 > So please update your JDK to later version of the JDK.
 
