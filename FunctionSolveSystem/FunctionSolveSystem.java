@@ -209,10 +209,10 @@ public final class FunctionSolveSystem {
 				break;
 			}
 			case 0: {
-				if(c != 0) {
-					writer.writeln(translator.translate("The graph picture of this function hasn't any points at Y-axis "), c, translator.translate("."));
+				if(c != y) {
+					writer.writeln(translator.translate("The graph picture of this function hasn't any points at Y-axis "), y, translator.translate("."));
 				} else {
-					writer.writeln(translator.translate("The graph picture of this function has unlimited points at Y-axis "), c, translator.translate("."));
+					writer.writeln(translator.translate("The graph picture of this function has unlimited points at Y-axis "), y, translator.translate("."));
 				}
 				break;
 			} 
