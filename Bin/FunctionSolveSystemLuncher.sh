@@ -5,5 +5,5 @@
 
 main_file_path="$(dirname $(dirname $(readlink -f $0)))/FunctionSolveSystem"
 cd $main_file_path
-java FunctionSolveSystem
+java FunctionSolveSystem $@
 cd -
