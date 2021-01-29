@@ -51,4 +51,3 @@ Bin/FunctionSolveSystemLuncher.bat
 > CLASSPATH=".;..;%CLASSPATH%" // 对于Windows
 > ```
 > 在CLASSPATH环境变量中，“$CLASSPATH”或“%CLASSPATH%”是你设置好的环境变量CLASSPATH。
- 
