@@ -1,9 +1,9 @@
-package utils.io;
+package com.QinGuodong1287.FunctionSolveSystem.io;
 
 import java.io.*;
 
-import utils.bugreport.BugReportHelper;
-import utils.config.ApplicationConfig;
+import com.QinGuodong1287.FunctionSolveSystem.bugreport.BugReportHelper;
+import com.QinGuodong1287.FunctionSolveSystem.config.ApplicationConfig;
 
 public final class OutputWriter {
 	protected BufferedWriter writer;

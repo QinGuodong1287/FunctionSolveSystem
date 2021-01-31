@@ -1,11 +1,11 @@
-package utils.io;
+package com.QinGuodong1287.FunctionSolveSystem.io;
 
 import java.io.*;
 import java.math.BigInteger;
 import java.math.BigDecimal;
 
-import utils.bugreport.BugReportHelper;
-import utils.config.ApplicationConfig;
+import com.QinGuodong1287.FunctionSolveSystem.bugreport.BugReportHelper;
+import com.QinGuodong1287.FunctionSolveSystem.config.ApplicationConfig;
 
 public class InputReader {
 	protected BufferedReader reader;
