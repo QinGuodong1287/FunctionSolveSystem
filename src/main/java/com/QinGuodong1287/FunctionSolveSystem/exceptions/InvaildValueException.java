@@ -1,4 +1,4 @@
-package utils.exceptions;
+package com.QinGuodong1287.FunctionSolveSystem.exceptions;
 
 public class InvaildValueException extends Exception {
 	public InvaildValueException() {
