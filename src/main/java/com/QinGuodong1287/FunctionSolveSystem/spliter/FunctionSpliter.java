@@ -1,11 +1,11 @@
-package utils.spliter;
+package com.QinGuodong1287.FunctionSolveSystem.spliter;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-import utils.spliter.SplitResult;
-import utils.checker.FunctionChecker;
-import utils.exceptions.InvaildValueException;
+import com.QinGuodong1287.FunctionSolveSystem.spliter.SplitResult;
+import com.QinGuodong1287.FunctionSolveSystem.checker.FunctionChecker;
+import com.QinGuodong1287.FunctionSolveSystem.exceptions.InvaildValueException;
 
 public class FunctionSpliter {
 	protected static double a = 0, b = 0, c = 0;

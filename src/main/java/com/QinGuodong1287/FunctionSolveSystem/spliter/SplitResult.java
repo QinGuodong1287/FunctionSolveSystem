@@ -1,4 +1,4 @@
-package utils.spliter;
+package com.QinGuodong1287.FunctionSolveSystem.spliter;
 
 public class SplitResult {
 	public double cv1, cv2, cv3;
