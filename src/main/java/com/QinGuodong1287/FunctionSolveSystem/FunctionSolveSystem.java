@@ -1,19 +1,21 @@
+package com.QinGuodong1287.FunctionSolveSystem;
+
 // Import classes.
 import java.util.*;
 import java.io.IOException;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-import utils.logger.ExceptionLogger;
-import utils.io.InputReader;
-import utils.io.OutputWriter;
-import utils.exceptions.InvaildValueException;
-import utils.checker.FunctionChecker;
-import utils.translate.Translator;
-import utils.translate.exceptions.InvaildLanguageException;
-import utils.spliter.FunctionSpliter;
-import utils.spliter.SplitResult;
-import utils.config.ApplicationConfig;
+import com.QinGuodong1287.FunctionSolveSystem.logger.ExceptionLogger;
+import com.QinGuodong1287.FunctionSolveSystem.io.InputReader;
+import com.QinGuodong1287.FunctionSolveSystem.io.OutputWriter;
+import com.QinGuodong1287.FunctionSolveSystem.exceptions.InvaildValueException;
+import com.QinGuodong1287.FunctionSolveSystem.checker.FunctionChecker;
+import com.QinGuodong1287.FunctionSolveSystem.translate.Translator;
+import com.QinGuodong1287.FunctionSolveSystem.translate.exceptions.InvaildLanguageException;
+import com.QinGuodong1287.FunctionSolveSystem.spliter.FunctionSpliter;
+import com.QinGuodong1287.FunctionSolveSystem.spliter.SplitResult;
+import com.QinGuodong1287.FunctionSolveSystem.config.ApplicationConfig;
 
 public final class FunctionSolveSystem {
 	public static void main(String[] args) {
