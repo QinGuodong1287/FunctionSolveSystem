@@ -43,11 +43,3 @@ You can report it by below three ways:\
 1.Send an email with exception context to us at "qinguodong07@qq.com" or "qinguodong07@foxmail.com".\
 2.Go to the Github issues page(https://github.com/QinGuodong1287/FunctionSolveSystem/issues), and submit a issue with exception context to us.\
 Finally, hava a good time!
-
-> Note:\
-> This application using the CLASSPATH environment variable is:
-> ```
-> CLASSPATH=".:..:$CLASSPATH" // For Linux/Mac
-> CLASSPATH=".;..;%CLASSPATH%" // For Windows
-> ```
-> In the CLASSPATH environment variable, the "$CLASSPATH" or "%CLASSPATH%" is your setting environment variable CLASSPATH.
