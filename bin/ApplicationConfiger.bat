@@ -4,7 +4,6 @@ rem Note:
 rem This script can config this application.
 
 echo Initializing...
-set "CLASSPATH=.;..;%CLASSPATH%"
 
 rem Find the config file.
 set "FileName=ApplicationConfig.java"
