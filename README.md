@@ -21,12 +21,12 @@ You must clone and extract the application zipfile in your device, and use it in
 for Linux/Mac OS:
 ```
 cd FunctionSolveSystem-1.0.0/
-bash Bin/FunctionSolveSystemLuncher.sh
+bash bin/FunctionSolveSystemLuncher.sh
 ```
 for Windows:
 ```
 cd FunctionSolveSystem-1.0.0/
-Bin/FunctionSolveSystemLuncher.bat
+bin/FunctionSolveSystemLuncher.bat
 ```
 
 ## Version
