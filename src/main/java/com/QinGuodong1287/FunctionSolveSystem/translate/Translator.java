@@ -1,8 +1,8 @@
-package utils.translate;
+package com.QinGuodong1287.FunctionSolveSystem.translate;
 
 import java.lang.invoke.*;
 
-import utils.translate.exceptions.InvaildLanguageException;
+import com.QinGuodong1287.FunctionSolveSystem.translate.exceptions.InvaildLanguageException;
 
 public class Translator {
 	protected class Sentence {
