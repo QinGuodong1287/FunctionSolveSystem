@@ -3,7 +3,6 @@
 rem Note:
 rem This script can config this application.
 
-rem Initizlize CLASSPATH.
 echo Initializing...
 set "CLASSPATH=.;..;%CLASSPATH%"
 
