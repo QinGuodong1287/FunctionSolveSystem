@@ -3,6 +3,7 @@
 rem Note:
 rem This script can config this application.
 
+rem Initizlize.
 echo Initializing...
 
 rem Find the config file.
