@@ -12,7 +12,7 @@ for %%a in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
 		pushd %%a:\
 		for /r %%b in (*%FileName%) do (
 			if /i "%%~nxb" equ "%FileName%" (
-				set "ConfigFilePath=%%a/%%b"
+				set "ConfigFilePath=%%b"
 				break
 			)
 		)
