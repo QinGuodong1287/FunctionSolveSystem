@@ -1,4 +1,4 @@
-package utils.translate.exceptions;
+package com.QinGuodong1287.FunctionSolveSystem.translate.exceptions;
 
 public class InvaildLanguageException extends Exception {
 	public InvaildLanguageException() {
