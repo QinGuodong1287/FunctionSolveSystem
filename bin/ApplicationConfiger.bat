@@ -4,7 +4,7 @@ rem Note:
 rem This script can config this application.
 
 rem Initizlize CLASSPATH.
-echo "Initializing..."
+echo Initializing...
 set "CLASSPATH=.;..;%CLASSPATH%"
 
 rem Find the config file.
@@ -23,8 +23,8 @@ for %%a in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
 )
 
 rem Edit the config file.
-echo "Editing..."
+echo Editing...
 rem Use editor to edit config file(defualt editor is notepad)
 notepad %LogFilePath%
-echo "Compiling..."
+echo Compiling...
 javac %LogFilePath%
