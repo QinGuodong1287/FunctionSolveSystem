@@ -1,4 +1,4 @@
-package utils.config;
+package com.QinGuodong1287.FunctionSolveSystem.config;
 
 public class ApplicationConfig {
 	private ApplicationConfig() {
