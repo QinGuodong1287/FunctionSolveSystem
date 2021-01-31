@@ -43,11 +43,3 @@ Bin/FunctionSolveSystemLuncher.bat
 1.发送一封含有异常内容的邮件给我们（qinguodong07@qq.com或qinguodong07@foxmail.com）。\
 2.到Github上的Issues页（https://github.com/QinGuodong1287/FunctionSolveSystem/issues），并提交一个含有异常信息的Issue给我们。\
 最后，祝你们有一个美好的时光！
-
-> 注：
-> 该应用使用的环境变量CLASSPATH是:
-> ```
-> CLASSPATH=".:..:$CLASSPATH" // 对于Linux/Mac
-> CLASSPATH=".;..;%CLASSPATH%" // 对于Windows
-> ```
-> 在CLASSPATH环境变量中，“$CLASSPATH”或“%CLASSPATH%”是你设置好的环境变量CLASSPATH。
