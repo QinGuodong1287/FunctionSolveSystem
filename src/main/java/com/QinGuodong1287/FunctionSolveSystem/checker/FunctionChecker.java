@@ -1,4 +1,4 @@
-package utils.checker;
+package com.QinGuodong1287.FunctionSolveSystem.checker;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
