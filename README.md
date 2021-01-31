@@ -35,7 +35,7 @@ Bin/FunctionSolveSystemLuncher.bat
 |1.0.0(current)|2020/1/31(excepted)|
 
 ## Using manaul
-Click [there](Doc/Using-manual.md), and you can see the using manual of this application.
+Click [there](doc/Using-manual.md), and you can see the using manual of this application.
 
 ## Author notice:
 If this application has an exception, please report it to us.\
