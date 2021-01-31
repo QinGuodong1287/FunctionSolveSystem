@@ -12,7 +12,7 @@ for %%a in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
 		pushd %%a:\
 		for /r %%b in (*%FileName%) do (
 			if /i "%%~nxb" equ "%FileName%" (
-				set "LogFilePath=%%a/%%b"
+				set "ConfigFilePath=%%a/%%b"
 				break
 			)
 		)
@@ -23,6 +23,6 @@ for %%a in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
 rem Edit the config file.
 echo Editing...
 rem Use editor to edit config file(defualt editor is notepad)
-notepad %LogFilePath%
+notepad %ConfigFilePath%
 echo Compiling...
-javac %LogFilePath%
+javac %ConfigFilePath%
