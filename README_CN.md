@@ -21,12 +21,12 @@
 Linux/Mac OS：
 ```
 cd FunctionSolveSystem-1.0.0/
-bash Bin/FunctionSolveSystemLuncher.sh
+bash bin/FunctionSolveSystemLuncher.sh
 ```
 Windows：
 ```
 cd FunctionSolveSystem-1.0.0/
-Bin/FunctionSolveSystemLuncher.bat
+bin/FunctionSolveSystemLuncher.bat
 ```
 
 ## 版本
@@ -35,7 +35,7 @@ Bin/FunctionSolveSystemLuncher.bat
 |1.0.0(当前)|2020/1/31(预计)|
 
 ## 使用手册
-单击[这里](Doc/Using-manual.md)，你可以看到该应用的使用手册。
+单击[这里](doc/Using-manual.md)，你可以看到该应用的使用手册。
 
 ## 作者寄语:
 如果该应用出现了异常，请报告它给我们。\
