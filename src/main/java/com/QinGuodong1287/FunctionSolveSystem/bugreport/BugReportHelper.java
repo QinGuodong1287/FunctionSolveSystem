@@ -1,6 +1,6 @@
-package utils.bugreport;
+package com.QinGuodong1287.FunctionSolveSystem.bugreport;
 
-import utils.config.ApplicationConfig;
+import com.QinGuodong1287.FunctionSolveSystem.config.ApplicationConfig;
 
 public class BugReportHelper {
 	private BugReportHelper() {
