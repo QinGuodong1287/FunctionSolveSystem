@@ -35,6 +35,7 @@ bin/FunctionSolveSystemLuncher.bat
 |1.0.0(current)|2020/1/31(excepted)|
 
 ## Using manaul
+Do you can't use this system?
 Click [there](doc/Using-manual.md), and you can see the using manual of this application.
 
 ## Author notice:
