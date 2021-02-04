@@ -35,7 +35,7 @@ bin/FunctionSolveSystemLuncher.bat
 |1.0.0(当前)|2020/1/31(预计)|
 
 ## 使用手册
-你不会使用该系统？
+你不会使用该系统？\
 单击[这里](doc/Using-manual.md)，你可以看到该应用的使用手册。
 
 ## 作者寄语:
