@@ -39,7 +39,7 @@ Do you can't use this application?\
 Click [there](doc/Using-manual.md), and you can see the using manual of this application.
 
 ## Author notice:
-If this application has an exception, please report it to us.\
+If this application has any exceptions, please report it to us.\
 You can report it by below three ways:\
 1.Send an email with exception context to us at "qinguodong07@qq.com" or "qinguodong07@foxmail.com".\
 2.Go to the Github issues page(https://github.com/QinGuodong1287/FunctionSolveSystem/issues), and submit a issue with exception context to us.\
