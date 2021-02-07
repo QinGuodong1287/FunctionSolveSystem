@@ -1,4 +1,4 @@
-package com.QinGuodong1287.FunctionSolveSystem;
+package src.main.java.com.QinGuodong1287.FunctionSolveSystem;
 
 // Import classes.
 import java.util.*;
@@ -6,16 +6,16 @@ import java.io.IOException;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-import com.QinGuodong1287.FunctionSolveSystem.logger.ExceptionLogger;
-import com.QinGuodong1287.FunctionSolveSystem.io.InputReader;
-import com.QinGuodong1287.FunctionSolveSystem.io.OutputWriter;
-import com.QinGuodong1287.FunctionSolveSystem.exceptions.InvaildValueException;
-import com.QinGuodong1287.FunctionSolveSystem.checker.FunctionChecker;
-import com.QinGuodong1287.FunctionSolveSystem.translate.Translator;
-import com.QinGuodong1287.FunctionSolveSystem.translate.exceptions.InvaildLanguageException;
-import com.QinGuodong1287.FunctionSolveSystem.spliter.FunctionSpliter;
-import com.QinGuodong1287.FunctionSolveSystem.spliter.SplitResult;
-import com.QinGuodong1287.FunctionSolveSystem.config.ApplicationConfig;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.logger.ExceptionLogger;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.io.InputReader;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.io.OutputWriter;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.exceptions.InvaildValueException;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.checker.FunctionChecker;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.translate.Translator;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.translate.exceptions.InvaildLanguageException;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.spliter.FunctionSpliter;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.spliter.SplitResult;
+import src.main.java.com.QinGuodong1287.FunctionSolveSystem.config.ApplicationConfig;
 
 public final class FunctionSolveSystem {
 	public static void main(String[] args) {
@@ -143,16 +143,14 @@ public final class FunctionSolveSystem {
 					"--------------------");
 				continue;
 			}
-			if(exponent != 0) {
-				while(true) {
-					try {
-						writer.writeln(translator.translate("Please enter " + (exponent == 2? "2 points'": "1 point's") + " Y-axis you search for:"));
-						y = reader.readDouble();
-						break;
-					} catch(NumberFormatException e) {
-						errWriter.writeln(translator.translate("Sorry, your enter is wrong.") + translator.translate("Please try it again."));
-						continue;
-					}
+			while(true) {
+				try {
+					writer.writeln(translator.translate("Please enter " + (exponent == 2? "2 points'": "1 point's") + " Y-axis you search for:"));
+					y = reader.readDouble();
+					break;
+				} catch(NumberFormatException e) {
+					errWriter.writeln(translator.translate("Sorry, your enter is wrong.") + translator.translate("Please try it again."));
+					continue;
 				}
 			}
 			solve();
